@@ -7,13 +7,20 @@
 
 <div *ngFor="let profile of profiles">
   <div class="card">
-    <div fxLayout="row" fxLayoutAlign="space-around">
+    <div fxLayout="row" fxLayoutAlign="space-evenly start">
       <div>
         <img src="{{ profile.img }}" alt="proImg" />
       </div>
-
       <div class="details">
-        {{ profile.name }}
+        <h1>{{ profile.name }}</h1>
+        <br />
+        <b> mobile no:</b>{{ profile.mobile }} <br />
+        <b>Email:</b> {{ profile.email }} <br />
+        <b>Password:</b> {{ profile.pass }}<br>
+        <input type="text" placeholder="size">
+      </div>
+      <div>
+        <b>Rs:1200</b>
       </div>
     </div>
   </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { url } from 'inspector';
 
 @Component({
   selector: 'app-banner',
@@ -23,7 +24,7 @@ export class BannerComponent implements OnInit {
     },
     {
       id: "2",
-      img: "img-1",
+      img: "../../../assets/11465381155576-Campus-Sutra-Blue-T-shirt-4491465381155293-1.jpg",
       name: "bharghav",
       mobile: 9999999990,
       email: "pava@gmail.com",
@@ -31,7 +32,7 @@ export class BannerComponent implements OnInit {
     },
     {
       id: "3",
-      img: "img-1",
+      img: "../../../assets/Myntra-Men-Black-Krrish-3-Attitude-Print-T-shirt_4d0c40a73c2abd6e3d99d1f2a0fdb55a_images.jpg",
       name: "geem",
       mobile: 9999999990,
       email: "pava@gmail.com",
@@ -39,16 +40,8 @@ export class BannerComponent implements OnInit {
     },
     {
       id: "4",
-      img: "img-1",
+      img: "../../../assets/11465381155576-Campus-Sutra-Blue-T-shirt-4491465381155293-1.jpg",
       name: "safari",
-      mobile: 9999999990,
-      email: "pava@gmail.com",
-      pass: "123secrete"
-    },
-    {
-      id: "5",
-      img: "img-1",
-      name: "apple",
       mobile: 9999999990,
       email: "pava@gmail.com",
       pass: "123secrete"
