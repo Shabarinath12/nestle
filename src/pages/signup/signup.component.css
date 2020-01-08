@@ -1,0 +1,18 @@
+.name{
+    height:500px;
+ }
+ .name input{
+     font-size: 25px;
+ }
+ .name b{
+     font-size: 25px;
+     padding:20px;
+ }
+ .name button{
+     font-size: 20px;
+     padding:5px;
+     margin:20px;
+     background-color: yellowgreen;
+     border-radius: 4px;
+     
+ }

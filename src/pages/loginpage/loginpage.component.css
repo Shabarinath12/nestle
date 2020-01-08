@@ -1,0 +1,18 @@
+.form-group{
+    height:500px;
+ }
+ .form-group input{
+     font-size: 25px;
+ }
+ .form-group b{
+     font-size: 25px;
+     padding:20px;
+ }
+ .form-group button{
+     font-size: 20px;
+     padding:5px;
+     margin:20px;
+     background-color:yellowgreen;
+     color:black;
+     border-radius: 4px;
+ }

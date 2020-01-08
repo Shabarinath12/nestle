@@ -1,0 +1,16 @@
+/* .banner img{
+ height:87vh;
+ width:100%;
+} */
+.card{
+    width:700px;
+    height:300px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(200,200,200,0.5);
+
+}
+.card img{
+    width:300px;
+    height:300px;
+}
+ 
